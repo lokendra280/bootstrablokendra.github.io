@@ -1,4 +1,7 @@
-
+*{
+	margin: 0;
+	padding: 0;
+}
 #about .about{
      flex-direction: column-reverse;
      text-align: center;
