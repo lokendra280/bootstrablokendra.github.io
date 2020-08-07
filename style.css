@@ -25,7 +25,10 @@
 
 }
 #about .col-left .about-img{
+	height: 100%
+	width:100%;
 	position: relative;
+	border:10px solid white;
 }
 #about .col-left .about-img::after{
 	content: '';
@@ -35,5 +38,6 @@
 	height: 98%;
 	width: 98%;
 	border:7px solid crimsion;
+	z-index: -1;
 }
 
