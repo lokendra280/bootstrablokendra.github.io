@@ -41,6 +41,10 @@
 	border:7px solid crimsion;
 	z-index: -1;
 }
+#about .col-right .cta{
+	color: black;
+	margin-bottom: 50px;
+}
 
 .cta{
 	display: inline-block;
