@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+#services-about P{
+	background-color: red;
+}
 #about .about{
      flex-direction: column-reverse;
      text-align: center;
