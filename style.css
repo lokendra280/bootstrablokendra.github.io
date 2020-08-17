@@ -191,3 +191,8 @@ h2{
        color: #fff;
        text-transform: uppercase;
 }
+.footer-bottom-text{
+	text-align: center;
+	background:#000;
+	line-height: 75px;
+}
