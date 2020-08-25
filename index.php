@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Bootstrap Example</title>
+  <script type="text/javascript">
+    alert ("Welcome to our webpage :) keep loving and keep smiling have a beautyful day :)");
+  </script>
+      <link rel="shortcut icon"  href="img/5.png">
+     <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Lokendra Web</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Online Forms</a></li>
+            <li><a href="#">Online Class</a></li>
+            <li><a href="#">Online Metting</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallary</a></li>
+        <li><a href="#">Branches</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Our Services</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+     <!-- slider img -->
+
+    <div class="container">
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/01.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="img/02.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="img/03.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!--end of  slider img -->
+</body>
+<!-- About section -->
+<section id="about">
+ <div class="about container">
+  
+  <div class="col-right">
+    <h1 class="section-title">About Me</h1>
+    <h2>Front End Developer</h2>
+    <p>Lokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra WebLokendra Web</p>
+     <div class="col-left">
+   <div class="about-img">
+     <img src="img/20.jpg" alt="img">
+   </div> 
+  </div>
+    <a href="" class="cta">Download Resume</a>
+  </div>
+ </div> 
+
+</section>
+
+<!-- end of  About Section -->
+
+
+
+
+
+ <!-- services -->
+<section class="my-5">
+<div class="py-5">
+  <h2 class="text-center">Our Services</h2>
+</div>  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lag-4 col-md-4 col-12">
+       <div class="card">
+    <img class="card-img-top" src="img/04.jpg" alt="img" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Beauty Full img</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+ 
+    </div>
+     <div class="col-lag-4 col-md-4 col-12">
+       <div class="card">
+    <img class="card-img-top" src="img/04.jpg" alt="img" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Beauty Full img</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+ 
+    </div>
+     <div class="col-lag-4 col-md-4 col-12">
+       <div class="card">
+    <img class="card-img-top" src="img/04.jpg" alt="img" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Beauty Full img</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+ 
+    </div>
+  </div>
+</div>
+</section>
+  <!-- end of services -->
+
+
+<!-- our Achivement -->
+<section class="my-5">
+<div class="py-5">
+  <h2 class="text-center">Our Achivement</h2>
+</div>  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lag-4 col-md-4 col-12">
+       <div class="card">
+    <img class="card-img-top" src="img/10.jpg" alt="img" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Beauty Full img</h4>
+      <p class="card-text">Hii its me lokendra kepp loving us guys</p>
+      <a href="https://www.iflix.com/np/en/browse" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+ 
+    </div>
+     <div class="col-lag-4 col-md-4 col-12">
+       <div class="card">
+    <img class="card-img-top" src="img/11.jpg" alt="img" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Beauty Full img</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="https://www.iflix.com/np/en/browse" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+ 
+    </div>
+     <div class="col-lag-4 col-md-4 col-12">
+       <div class="card">
+    <img class="card-img-top" src="img/11.jpg" alt="img" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Beauty Full img</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="https://www.iflix.com/np/en/browse" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+ 
+    </div>
+  </div>
+</div>
+</section>
+<!-- end of our Achivement -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  color: red;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Forms</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="City">
+          <option value="australia">Nepaljung</option>
+          <option value="canada">Kathmandu</option>
+          <option value="usa">Pokhara</option>
+          <option value="usa">Bhutwal</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Coures</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="City">
+          <option value="australia">Webpage Development</option>
+          <option value="canada">C & C++</option>
+          <option value="usa">java script</option>
+          <option value="usa">Machine Learning</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+<!-- end of responsive form -->
+
+
+
+
+<footer>
+  <div class="footer-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+        <h3>Divinector</h3>
+        <p>lokendra web lokendra web lokendra web lokendra web lokendra web lokendra web lokendra web </p>
+
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+        <h2>Divinector</h2>
+        <ul>
+          <li><a href="#"></a>Event</li>
+          <li><a href="#"></a>Support</li>
+          <li><a href="#"></a>Hosting</li>
+          <li><a href="#"></a>Carrer</li>
+          <li><a href="#"></a>Blog</li>
+
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30">
+        <h2>Follow us</h2>
+        <p>Please Follow us on our social Media profile in order to keep update,Lorem ipus dolor sit amet consecteture adipisicing elit Ex,libero.</p>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+         <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-pinterest"></i></a>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 segment-four sm-mb-30">
+        <h2>Our Newletter</h2>
+        <p>lokendra web lokendraweblokendra web lokendraweblokendra web lokendraweblokendra web lokendraweblokendra web lokendraweblokendra web lokendraweblokendra web lokendraweblokendra web lokendraweblokendra web lokendraweb</p>
+        <form action="">
+          <input type="email">
+          <input type="submit" value="subscribe">
+          
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<p class="footer-bottom-text">All Right Reserved by & copy by lokendra web 2020 :)</p>
+</footer>
+</body>
+</html>
